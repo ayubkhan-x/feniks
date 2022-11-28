@@ -1,0 +1,395 @@
+@font-face {
+    font-family: 'Complex';
+    src: url('../fonts/complex/Complex.ttf');
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/futura/FuturaPTBook.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/futura/FuturaPTDemi.otf');
+    font-weight: 500;
+}
+
+// Colors
+$main__color: #000;
+$main__second: #fff;
+
+// Background colors
+$main__bg: #EADED2;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+// Header
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 51px;
+
+    &__logo_icon {
+        display: flex;
+        align-items: center;
+
+        span {
+            font-family: 'Complex';
+            font-size: 20px;
+            color: #976646;
+        }
+    }
+
+    &__menu {
+        &_ul {
+            display: flex;
+            align-items: center;
+            column-gap: 77px;
+
+            li {
+                a {
+                    font-family: 'Futura PT';
+                    color: $main__color;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+// First
+
+.first {
+    margin-top: 40px;
+    background-color: $main__bg;
+    width: 100%;
+    height: 557px;
+
+    &__heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &_title {
+            font-family: 'Futura PT';
+            font-weight: 500;
+            font-size: 35px;
+            color: $main__color;
+            text-align: center;
+            margin-top: 130px;
+        }
+
+        &_subtitle {
+            font-family: 'Futura PT';
+            font-weight: 400;
+            font-size: 22px;
+            color: $main__color;
+            width: 713px;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        &_footer {
+            margin-top: 35px;
+        }
+    }
+}
+
+// Second
+
+.second {
+    &__df {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__left {
+        margin-left: 165px;
+
+        &_title {
+            font-family: 'Futura PT';
+            font-weight: 500;
+            font-size: 35px;
+            color: $main__color;
+            width: 475px;
+        }
+
+        &_subtitle {
+            font-family: 'Futura PT';
+            font-weight: 400;
+            font-size: 16px;
+            color: $main__color;
+            width: 475px;
+            margin-top: 25px;
+        }
+
+        &_btn {
+            width: 225px;
+            height: 50px;
+            background: #976646;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 35px;
+            font-family: 'Futura PT';
+            font-weight: 400;
+            font-size: 16px;
+            color: $main__second;
+        }
+    }
+}
+
+// Thirth
+.thirth {
+    margin-top: 130px;
+
+    &__heading {
+        font-family: 'Futura PT';
+        font-weight: 500;
+        font-size: 35px;
+        color: $main__color;
+        text-align: center;
+    }
+
+    &__about {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        &_item {
+            &_img {
+                text-align: center;
+                margin-bottom: 16px;
+            }
+
+            &_title {
+                font-family: 'Futura PT';
+                font-weight: 450;
+                font-size: 22px;
+                width: 130px;
+                text-align: center;
+                margin: 0 auto;
+            }
+
+            &_subtitle {
+                font-family: 'Futura PT';
+                font-weight: 400;
+                font-size: 16px;
+                width: 194px;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    &__footer_btn {
+        width: 225px;
+        height: 50px;
+        background: #976646;
+        font-family: 'Futura PT';
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: $main__second;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+// Fourth 
+
+.fourth {
+    margin-top: 130px;
+    background-color: $main__bg;
+    width: 100%;
+    height: 851px;
+
+    &__heading {
+        padding-top: 75px;
+
+        &_title {
+            font-family: 'Futura PT';
+            font-weight: 500;
+            font-size: 35px;
+            text-align: center;
+            width: 511px;
+            margin: 0 auto;
+        }
+
+        &_subtitle {
+            font-family: 'Futura PT';
+            font-weight: 500;
+            font-size: 16px;
+            text-align: center;
+            margin-top: 15px;
+        }
+    }
+
+    &__about {
+        margin-top: 31px;
+
+        &_img {
+            text-align: center;
+        }
+    }
+}
+
+// Eight
+
+.eight {
+    margin-top: 80px;
+
+    &__title {
+        font-family: 'Futura PT';
+        font-weight: 500;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    &__subtitle {
+        font-family: 'Futura PT';
+        font-weight: 400;
+        font-size: 16px;
+        width: 521px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &__about {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-evenly;
+
+        &_item {
+            width: 630px;
+            height: 329px;
+            background-color: $main__bg;
+            padding-top: 73px;
+            padding-left: 72px;
+
+            &_heading {
+                display: flex;
+                align-items: center;
+
+                &_info {
+                    margin-left: 15px;
+
+                    &_title {
+                        font-family: 'Futura PT';
+                        font-weight: 500;
+                        font-size: 20px;
+                    }
+
+                    &_subtitle {
+                        font-family: 'Futura PT';
+                        font-weight: 400;
+                        font-size: 14px;
+                        text-align: center;
+                        color: #594747;
+                    }
+                }
+            }
+
+            &_about {
+                font-family: 'Futura PT';
+                font-weight: 400;
+                font-size: 16px;
+                margin-top: 29px;
+                width: 487px;
+            }
+        }
+    }
+}
+
+// Footer
+
+.footer {
+    width: 100%;
+    height: 455px;
+    background-color: $main__color;
+    margin-top: 122px;
+    color: $main__second;
+
+    &__wrap {
+        display: flex;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 146px;
+
+
+        &_social {
+            margin-top: 16px;
+
+            img {
+                margin-right: 12px;
+            }
+        }
+
+        &_text {
+            font-family: 'Futura PT';
+            font-weight: 400;
+            font-size: 14px;
+            width: 170px;
+            margin-top: 20px;
+            margin-left: 35px;
+        }
+
+        &_title {
+            font-family: 'Futura PT';
+            font-weight: 700;
+            font-size: 14px;
+            margin-top: 40px;
+
+        }
+
+        &_category {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            gap: 12px;
+
+            span {
+                font-family: 'Futura PT';
+                font-weight: 400;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+.swiper-slide {
+    width: 600px !important;
+    height: 300px !important;
+}

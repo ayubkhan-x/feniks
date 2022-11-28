@@ -1,0 +1,322 @@
+@font-face {
+  font-family: "Complex";
+  src: url("../fonts/complex/Complex.ttf");
+}
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/futura/FuturaPTBook.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/futura/FuturaPTDemi.otf");
+  font-weight: 500;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 51px;
+}
+.heading__logo_icon {
+  display: flex;
+  align-items: center;
+}
+.heading__logo_icon span {
+  font-family: "Complex";
+  font-size: 20px;
+  color: #976646;
+}
+.heading__menu_ul {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 77px;
+       column-gap: 77px;
+}
+.heading__menu_ul li a {
+  font-family: "Futura PT";
+  color: #000;
+  font-size: 16px;
+}
+
+.first {
+  margin-top: 40px;
+  background-color: #EADED2;
+  width: 100%;
+  height: 557px;
+}
+.first__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.first__heading_title {
+  font-family: "Futura PT";
+  font-weight: 500;
+  font-size: 35px;
+  color: #000;
+  text-align: center;
+  margin-top: 130px;
+}
+.first__heading_subtitle {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 22px;
+  color: #000;
+  width: 713px;
+  text-align: center;
+  margin-top: 15px;
+}
+.first__heading_footer {
+  margin-top: 35px;
+}
+
+.second__df {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second__left {
+  margin-left: 165px;
+}
+.second__left_title {
+  font-family: "Futura PT";
+  font-weight: 500;
+  font-size: 35px;
+  color: #000;
+  width: 475px;
+}
+.second__left_subtitle {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  width: 475px;
+  margin-top: 25px;
+}
+.second__left_btn {
+  width: 225px;
+  height: 50px;
+  background: #976646;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 35px;
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.thirth {
+  margin-top: 130px;
+}
+.thirth__heading {
+  font-family: "Futura PT";
+  font-weight: 500;
+  font-size: 35px;
+  color: #000;
+  text-align: center;
+}
+.thirth__about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.thirth__about_item_img {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.thirth__about_item_title {
+  font-family: "Futura PT";
+  font-weight: 450;
+  font-size: 22px;
+  width: 130px;
+  text-align: center;
+  margin: 0 auto;
+}
+.thirth__about_item_subtitle {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 16px;
+  width: 194px;
+  text-align: center;
+  margin-top: 10px;
+}
+.thirth__footer_btn {
+  width: 225px;
+  height: 50px;
+  background: #976646;
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.fourth {
+  margin-top: 130px;
+  background-color: #EADED2;
+  width: 100%;
+  height: 851px;
+}
+.fourth__heading {
+  padding-top: 75px;
+}
+.fourth__heading_title {
+  font-family: "Futura PT";
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  width: 511px;
+  margin: 0 auto;
+}
+.fourth__heading_subtitle {
+  font-family: "Futura PT";
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
+}
+.fourth__about {
+  margin-top: 31px;
+}
+.fourth__about_img {
+  text-align: center;
+}
+
+.eight {
+  margin-top: 80px;
+}
+.eight__title {
+  font-family: "Futura PT";
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.eight__subtitle {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 16px;
+  width: 521px;
+  text-align: center;
+  margin: 0 auto;
+}
+.eight__about {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.eight__about_item {
+  width: 630px;
+  height: 329px;
+  background-color: #EADED2;
+  padding-top: 73px;
+  padding-left: 72px;
+}
+.eight__about_item_heading {
+  display: flex;
+  align-items: center;
+}
+.eight__about_item_heading_info {
+  margin-left: 15px;
+}
+.eight__about_item_heading_info_title {
+  font-family: "Futura PT";
+  font-weight: 500;
+  font-size: 20px;
+}
+.eight__about_item_heading_info_subtitle {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #594747;
+}
+.eight__about_item_about {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 29px;
+  width: 487px;
+}
+
+.footer {
+  width: 100%;
+  height: 455px;
+  background-color: #000;
+  margin-top: 122px;
+  color: #fff;
+}
+.footer__wrap {
+  display: flex;
+}
+.footer__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 146px;
+}
+.footer__item_social {
+  margin-top: 16px;
+}
+.footer__item_social img {
+  margin-right: 12px;
+}
+.footer__item_text {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 14px;
+  width: 170px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.footer__item_title {
+  font-family: "Futura PT";
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 40px;
+}
+.footer__item_category {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 12px;
+}
+.footer__item_category span {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.swiper-slide {
+  width: 600px !important;
+  height: 300px !important;
+}
